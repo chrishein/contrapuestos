@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Contrapuestos - comparando los dos extremos</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" type="text/css" href="css/contrapuestos.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script> 
+    <script type="text/javascript" src="js/contrapuestos.js"></script> 
+    
+</head>
+
+<body>
+
+	<div id="content">
+    
+   	  <div id="topframe" class="frame">
+			<iframe id="clarinFrame" src="http://www.clarin.com.ar/"></iframe>
+        </div>
+        
+        <div id="middlebar" class="ui-draggable">
+        	<div id="inner">
+                <div id="share">
+                    <!-- AddThis Button BEGIN -->
+                    <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bda169c03601538">
+                    <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/>
+                    </a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bda169c03601538"></script>
+                    <!-- AddThis Button END -->
+                </div>
+                <div id="title">Contrapuestos</div>
+                
+                <div id="devid">Desarrollado por <a href="http://www.kumbel.com.ar">kumbel</a></div>
+        	</div>
+        </div>
+    
+    	<div id="bottomframe" class="frame">
+   		  <iframe id="argentinoFrame" src="http://www.elargentino.com/"></iframe>
+      </div>
+
+	</div>
+
+<script type="text/javascript">
+	$("#middlebar").draggable({ axis:"y", containment:"parent", cursor:"move", drag:updatePartitions, iframeFix:true }); 
+	updatePartitions();
+	$(window).resize(updatePartitions);
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16146997-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

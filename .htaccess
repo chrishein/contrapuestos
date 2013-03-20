@@ -1,0 +1,6 @@
+#Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} !^www.contrapuestos.com.ar$ [NC]
+#RewriteRule ^(.*)$ http://www.contrapuestos.com.ar/$1 [R=301,L]

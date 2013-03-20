@@ -1,0 +1,64 @@
+
+
+#middlebar {
+	height: 44px;
+	position: absolute;
+	display: block;
+	top: 50%;
+	width: 100%;
+	background-color: #F00;
+	cursor: row-resize;
+	-moz-box-shadow: 0 0 20px 2px rgba(100, 50, 30, 0.5);
+}
+
+#middlebar #inner {
+	height: 87%;
+	width: 99%;
+	background-color: #FFF;
+	margin: 0 auto;
+	margin-top: 3px;
+	text-align: center;
+	
+	background-image: url(../images/bg1.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+#middlebar #inner #share {
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+#middlebar #inner #title {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 28px;
+	color: #F00;
+	float: left;
+	margin-left: 10px;
+}
+
+#middlebar #inner #devid {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+	color: #FFF;
+}
+
+#middlebar #inner #devid a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.frame {
+	width: 100%;
+	height: 300px;
+}
+
+.frame iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
