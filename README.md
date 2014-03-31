@@ -1,4 +1,6 @@
-# Contrapuestos (Spanish for Opposed) - http://www.contrapuestos.com.ar/
+# Contrapuestos (Spanish for Opposed)
+
+http://chrishein.github.io/contrapuestos/
 
 Based on http://wtfcnn.com/
 
